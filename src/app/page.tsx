@@ -1,6 +1,21 @@
 import Image from 'next/image'
 
 export default function Home() {
+
+  // const [count, setCount] = useState(0)
+  // const [barcodeData, setBarcodeData]  = useState<string>("No Barcode Scanned")
+
+  // const handleBarcode = (data: string) => {
+  //   setBarcodeData(data)
+  // }
+
+  // useScanDetection({
+  //   onComplete: (data) => handleBarcode(data as string),
+  //   minLength: 13,
+  // })
+
+  // console.log(barcodeData)
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
