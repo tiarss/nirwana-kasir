@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "plugins": ["prettier-plugin-tailwindcss", "postcss-import", "autoprefixer", "tailwindcss"]
+}
